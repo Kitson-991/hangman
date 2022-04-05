@@ -14,6 +14,7 @@ class Card:
 
     def __lt__(self, c2):
     # __lt__ は比較演算子の特殊メソッド
+    # testcode
         if self.value < c2.value:
             return True
         if self.value == c2.value:
